@@ -5,7 +5,7 @@ test('factorial of 0 should be 1', () => {
 });
 
 test('factorial of 5 should be 120', () => {
-    expect(factorial(5)).toBe(120);
+    expect(factorial(5)).toBe(100); //Aqui se hizo el cambio
 });
 
 test('factorial of negative number should be undefined', () => {
